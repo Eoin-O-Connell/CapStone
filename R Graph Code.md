@@ -23,9 +23,9 @@ WChromoSizeT<-abs(WChromoSize)
 
 adds all the lengths together
 ```
-Sum(WchromoSizeT)
+sum(WChromoSizeT)
 
-WPercent<-(Sum(WchromosizeT)/Bp of Chromosome)*100
+WPercent<-(sum(WChromosizeT)/Bp of Chromosome)*100
 ```
 
 
