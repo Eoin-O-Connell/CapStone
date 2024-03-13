@@ -25,7 +25,7 @@ adds all the lengths together
 ```
 sum(WChromoSizeT)
 
-WPercent<-(sum(WChromosizeT)/Bp of Chromosome)*100
+WPercent<-(sum(WChromoSizeT)/Bp of Chromosome)*100
 ```
 
 
