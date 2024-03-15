@@ -3,7 +3,7 @@
 
 After import of CSV files this will make a new table With only the W chromosome hits 
 ```
-WChromo <- TableName[TableName$Chromosome == "W", ]
+WChromo <- ChainInfo[ChainInfo$Chromosome == "W", ]
 ```
 
 This is the one for the autosomes 
