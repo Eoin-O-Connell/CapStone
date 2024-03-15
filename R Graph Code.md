@@ -13,7 +13,7 @@ Autosomes <- ChainInfo[!(ChainInfo$Chromosome %in% c("W", "Z")), ]
 
 This Will get the size of each hit 
 ```
-WChromoSize <- (TableName$Start - TableName$End)
+WChromoSize <- (WChromo$Start - TableName$End)
 ```
 
 used to make all sizes positive
