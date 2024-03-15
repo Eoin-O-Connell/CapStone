@@ -8,7 +8,7 @@ WChromo <- ChainInfo[ChainInfo$Chromosome == "W", ]
 
 This is the one for the autosomes 
 ```
-Autosomes <- TableName[!(TableName$Chromosome %in% c("W", "Z")), ]
+Autosomes <- ChainInfo[!(ChainInfo$Chromosome %in% c("W", "Z")), ]
 ```
 
 This Will get the size of each hit 
